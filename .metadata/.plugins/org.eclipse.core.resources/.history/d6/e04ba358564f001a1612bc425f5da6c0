@@ -1,0 +1,5 @@
+package lv.raimonds.employee;
+
+public class SalaryEmployee {
+
+}
