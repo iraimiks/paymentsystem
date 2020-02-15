@@ -1,0 +1,15 @@
+package lv.raimonds.test;
+
+import lv.raimonds.employee.CommissionEmployee;
+import lv.raimonds.paysystem.PaymentSystem;
+
+public class TestPayment {
+
+
+	public static void main(String[] args) {
+		PaymentSystem paymentSystem = new PaymentSystem();
+		
+		CommissionEmployee toms = new CommissionEmployee("Toms Ozolins", 1010101, 5000 );
+	}
+
+}

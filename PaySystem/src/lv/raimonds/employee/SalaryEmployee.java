@@ -9,6 +9,14 @@ public class SalaryEmployee extends Employee {
 
 	@Override
 	public Double grossPaymeny() {
-		return grossWage;
+		return grossWage + doCurrentBonus();
 	}
+
+	@Override
+	public void giveBonus(Double percentage) {
+		currentBonus += grossWage * (percentage/100.00);
+		
+	}
+
+	
 }
